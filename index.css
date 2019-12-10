@@ -1,0 +1,29 @@
+h1 {
+    color: #003366;
+}
+
+h4, b {
+    color: #c5ab35;
+}
+
+td {
+    border: none;
+    padding: 10px;
+    color:black;
+}
+
+.nav-item {
+    color: #003366 !important;
+}
+
+.active {
+    color: #c5ab35 !important;
+}
+
+p, span, quote{
+    color: black;
+}
+
+/* p{
+    width:70%;
+} */

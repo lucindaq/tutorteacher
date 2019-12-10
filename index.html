@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+
+    <title>IBCS IA</title>
+  </head>
+
+
+  <body>
+    <div class="jumbotron">
+      <h1>TutorMe<img src="icon.ico" style="height:5%; width: 5%; padding-left:20px"/></h1>
+      <h5>IBCS IA Tutor App</h5>
+    </div>
+
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-inof-tab" data-toggle="tab" href="#home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+        <a class="nav-item nav-link" id="nav-web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="nav-profile" aria-selected="false">Schedule</a>
+        <a class="nav-item nav-link" id="nav-implementation-tab" data-toggle="tab" href="#searchEng" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+        <a class="nav-item nav-link" id="nav-projects-tab" data-toggle="tab" href="#webCrawl" role="tab" aria-controls="nav-contact" aria-selected="false">Update Profile</a>
+        <!-- <a class="nav-item nav-link" id="nav-projects-tab" data-toggle="tab" href="#bib" role="tab" aria-controls="nav-contact" aria-selected="false">Bibliography</a> -->
+        <!-- <a class="nav-item nav-link" id="nav-projects-tab" data-toggle="tab" href="#checkin" role="tab" aria-controls="nav-contact" aria-selected="false">Check In</a> -->
+      
+    </div>
+    </nav>
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home">
+            <div class="container" style="margin: 5%">
+            <div class="row">
+                <div class="col-sm-10">
+                <h1>In this app, you can:</h1>
+                <table>
+                    <tr>
+                        <td style="border:0px">
+                            <table>
+                                <tr>
+                                    <td>Tab 2:</td>
+                                    <td>Schedule a tutoring session and see existing sessions.</td>
+                                </tr>
+                                <tr>
+                                    <td>Tab 3:</td>
+                                    <td>Contact your teacher/student who you are involved in tutoring with.</td>
+                                </tr>
+                                <tr>
+                                    <td>Tab 4:</td>
+                                    <td>Update your inputted profile information.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web">
+            <div class="tab-cont" style="margin:5%">
+                <h1>Schedule a Session</h1>
+                <iframe src="https://calendar.google.com/calendar/embed?src=lucindaibcsia%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <img src="webgrowth.jpg">
+                <form action="https://webdesign.tutsplus.com/articles/a-brief-history-of-the-world-wide-web--webdesign-8710" target="blank">
+                    <button type="submit">Go to Source</button>
+                 </form>
+            </div>
+        </div>
+
+
+        <div class="tab-pane fade tab-cont" id="searchEng" role="tabpanel" aria-labelledby="searchEng" style="margin:5%">
+            <h1>Contact</h1>
+            <p> Contact your student or teacher by entering their email</p>
+        </div>
+
+
+        <div class="tab-pane fade tab-cont" id="webCrawl" role="tabpanel" aria-labelledby="webCrawl" style="margin:5%">
+            <h1>Web crawlers</h1>
+            <p>
+                <b>Web crawlers</b> (also known as spiders, bots and automatic indexers) are computer programs that scan the Web, ‘reading’ 
+                everything they find. These crawlers scan web pages to see what words they contain, 
+                and where those words are used. The crawler turns its findings into a giant index. The index is basically a 
+                big list of words and the web pages that feature them. So when you ask a search engine for pages about IB Computer Science, 
+                the search engine checks its index and gives you a list of pages that mention IB Computer Science. Web crawlers scan the web 
+                regularly so they always have an up-to-date index of the web.
+            </p>
+            <h1>Parallel web crawlers</h1>
+            <p>
+                A <b>parallel crawler</b> is a crawler that runs multiple processes in parallel. The goal is to maximize the download rate to avoid 
+                repeated downloads of the same page. To avoid downloading the same page more than once, the crawling system requires a policy 
+                for assigning the new URLs discovered during the crawling process, as the same URL can be found by two different crawling processes.
+                Parallel web crawlers might index the same page multiple times.
+            </p>
+            <h1>Meta tags</h1>
+            <p>
+                <b>Meta tags</b> are the words that are hidden in your code. People browsing your site will just not be able to see them. It is a 
+                way of hiding words in your webpages for search engines. The search engines still read them for it to have a simple, summarized 
+                idea of what your site is about and what exactly your keywords are. The importance of meta tags is that the search engines read 
+                them in order to compare if these keywords and the description are related with the visible content. 
+            </p>
+            <h1>robots.txt</h1>
+            <p>
+                A <b>robots.txt</b> file tells search engine crawlers which pages or files the crawler can or can't request from your site. This is 
+                used mainly to avoid overloading your site with requests. After arriving at a website but before crawling it, the search crawler 
+                will look for a robots.txt file. If it finds one, the crawler will read that file first before continuing through the page. 
+                Because the robots.txt file contains information about how the search engine should crawl, the information found there will 
+                instruct further crawler action on this particular site. If the robots.txt file does not contain any directives that disallow 
+                a user-agent’s activity (or if the site doesn’t have a robots.txt file), it will proceed to crawl other information on the site.
+            </p>
+            <h1>Web indexing</h1>
+            <p>
+                <b>Web indexing</b> is the process of adding webpages into Google search and the processing of the information gathered by the bots 
+                from thier crawling activities. Depending on which meta tags used, Google will crawl and index your pages. A no-index tag means 
+                that that page will not be added into the web search's index. 
+            </p>
+        </div>
+
+        <div class="tab-pane fade tab-cont" id="bib" role="tabpanel" aria-labelledby="checkin" style="margin:5%">
+            <h1>Bibliography</h1>
+            <quote>
+                “C.1 Creating the Web.” CS-IB, 1 May 2018, www.cs-ib.net/sections/C-01-creating-the-web.html.
+                <br><br>
+                “Chapter 16: The World Wide Web.” Computer Science Illuminated, by Nell Dale and John Lewis, Jones &amp; Bartlett Learning, 2019.
+                <br><br>                
+                Lumsden, Aaron. “A Brief History of the World Wide Web.” Envato Tuts Web Design, 25 Sept. 
+                <br>2012, webdesign.tutsplus.com/articles/a-brief-history-of-the-world-wide-web--webdesign-8710.
+                <br><br>
+                “Option C Web Science.” IB Computer Science, ibcomputerscience.xyz/option-c-web-science/.
+                
+            </quote>
+            
+            
+        </div>
+
+        <div class="tab-pane fade tab-cont" id="checkin" role="tabpanel" aria-labelledby="checkin" style="margin:5%">
+            <h1>Check In</h1>
+            <input type="text" id="nameBox" placeholder="Enter Your Name"/>
+            <br>
+            <br>
+            <h4>What did you learn from this website?</h4>
+            <input type="checkbox" id="check1" value="about the Web"/><span> About the Web</span>
+            <br>
+            <input type="checkbox" id="check2" value="about search engines/algorithms"/><span> About search engines/algorithms</span>
+            <br>
+            <input type="checkbox" id="check3" value="about different types of web crawlers and how they work"/><span> About different types of web crawlers and how they work</span>
+            <br>
+            <br>
+            <button id="nameEnter" onclick="submit()">Enter</button>
+            <br><br>
+            <p id="results"></p>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
